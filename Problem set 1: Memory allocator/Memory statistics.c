@@ -6,7 +6,7 @@
 /*   By: yoel-idr <yoel-idr@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 16:31:14 by yoel-idr          #+#    #+#             */
-/*   Updated: 2023/01/09 17:29:54 by yoel-idr         ###   ########.fr       */
+/*   Updated: 2023/01/09 18:47:20 by yoel-idr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,7 @@ void ft_get(char **str, int mode)
     char          **advice;
     size_t          len;
 
+    
     
     
 }
