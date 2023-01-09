@@ -6,7 +6,7 @@
 /*   By: yoel-idr <yoel-idr@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 16:31:14 by yoel-idr          #+#    #+#             */
-/*   Updated: 2023/01/09 16:44:34 by yoel-idr         ###   ########.fr       */
+/*   Updated: 2023/01/09 17:29:54 by yoel-idr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,13 +27,24 @@ typedef struct m61_statistics {
 
 t_m61_statistics    get_statistics(void);
 
+void ft_get(char **str, int mode)
+{
+    unsigned long l_bits;
+    char          **advice;
+    size_t          len;
+
+    
+    
+}
 t_m61_statistics    get_statistics(void)
 {
     t_m61_statistics    statis;
+    short x;
+    unsigned int    size;
+    unsigned char   bytes;
     
     memset(&statis, 0, sizeof(t_m61_statistics));
-   // statis.active_size = (unsigned long long)sizeof((unsigned long long);
-    
+        
 }
 
 int main(void)
