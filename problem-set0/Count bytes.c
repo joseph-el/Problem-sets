@@ -19,7 +19,7 @@ int main(void)
     unsigned int    bytes;
     
     bytes = 0;
-    while (fgetc(STDIN_FILENO) ^ -1)
+    while (fgetc(stdin) ^ -1)
         ++bytes;
     printf("Bytes : |%d|\n", bytes);
     return (EXIT_SUCCESS);
